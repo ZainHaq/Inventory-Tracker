@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F19EED311CE21B0600D74F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19EED301CE21B0600D74F40 /* AppDelegate.swift */; };
+		F19EED331CE21B0600D74F40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19EED321CE21B0600D74F40 /* ViewController.swift */; };
+		F19EED361CE21B0600D74F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19EED341CE21B0600D74F40 /* Main.storyboard */; };
+		F19EED381CE21B0600D74F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19EED371CE21B0600D74F40 /* Assets.xcassets */; };
+		F19EED3B1CE21B0600D74F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19EED391CE21B0600D74F40 /* LaunchScreen.storyboard */; };
+		F19EED461CE21B0700D74F40 /* Inventory_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19EED451CE21B0700D74F40 /* Inventory_TrackerTests.swift */; };
+		F19EED511CE21B0700D74F40 /* Inventory_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19EED501CE21B0700D74F40 /* Inventory_TrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F19EED421CE21B0700D74F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F19EED251CE21B0600D74F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F19EED2C1CE21B0600D74F40;
+			remoteInfo = "Inventory Tracker";
+		};
+		F19EED4D1CE21B0700D74F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F19EED251CE21B0600D74F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F19EED2C1CE21B0600D74F40;
+			remoteInfo = "Inventory Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F19EED2D1CE21B0600D74F40 /* Inventory Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inventory Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19EED301CE21B0600D74F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F19EED321CE21B0600D74F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F19EED351CE21B0600D74F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F19EED371CE21B0600D74F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F19EED3A1CE21B0600D74F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F19EED3C1CE21B0600D74F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19EED411CE21B0700D74F40 /* Inventory TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inventory TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19EED451CE21B0700D74F40 /* Inventory_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory_TrackerTests.swift; sourceTree = "<group>"; };
+		F19EED471CE21B0700D74F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19EED4C1CE21B0700D74F40 /* Inventory TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inventory TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19EED501CE21B0700D74F40 /* Inventory_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory_TrackerUITests.swift; sourceTree = "<group>"; };
+		F19EED521CE21B0700D74F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F19EED2A1CE21B0600D74F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19EED3E1CE21B0700D74F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19EED491CE21B0700D74F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F19EED241CE21B0600D74F40 = {
+			isa = PBXGroup;
+			children = (
+				F19EED2F1CE21B0600D74F40 /* Inventory Tracker */,
+				F19EED441CE21B0700D74F40 /* Inventory TrackerTests */,
+				F19EED4F1CE21B0700D74F40 /* Inventory TrackerUITests */,
+				F19EED2E1CE21B0600D74F40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F19EED2E1CE21B0600D74F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F19EED2D1CE21B0600D74F40 /* Inventory Tracker.app */,
+				F19EED411CE21B0700D74F40 /* Inventory TrackerTests.xctest */,
+				F19EED4C1CE21B0700D74F40 /* Inventory TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F19EED2F1CE21B0600D74F40 /* Inventory Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				F19EED301CE21B0600D74F40 /* AppDelegate.swift */,
+				F19EED321CE21B0600D74F40 /* ViewController.swift */,
+				F19EED341CE21B0600D74F40 /* Main.storyboard */,
+				F19EED371CE21B0600D74F40 /* Assets.xcassets */,
+				F19EED391CE21B0600D74F40 /* LaunchScreen.storyboard */,
+				F19EED3C1CE21B0600D74F40 /* Info.plist */,
+			);
+			path = "Inventory Tracker";
+			sourceTree = "<group>";
+		};
+		F19EED441CE21B0700D74F40 /* Inventory TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F19EED451CE21B0700D74F40 /* Inventory_TrackerTests.swift */,
+				F19EED471CE21B0700D74F40 /* Info.plist */,
+			);
+			path = "Inventory TrackerTests";
+			sourceTree = "<group>";
+		};
+		F19EED4F1CE21B0700D74F40 /* Inventory TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F19EED501CE21B0700D74F40 /* Inventory_TrackerUITests.swift */,
+				F19EED521CE21B0700D74F40 /* Info.plist */,
+			);
+			path = "Inventory TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F19EED2C1CE21B0600D74F40 /* Inventory Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19EED551CE21B0700D74F40 /* Build configuration list for PBXNativeTarget "Inventory Tracker" */;
+			buildPhases = (
+				F19EED291CE21B0600D74F40 /* Sources */,
+				F19EED2A1CE21B0600D74F40 /* Frameworks */,
+				F19EED2B1CE21B0600D74F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Inventory Tracker";
+			productName = "Inventory Tracker";
+			productReference = F19EED2D1CE21B0600D74F40 /* Inventory Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F19EED401CE21B0700D74F40 /* Inventory TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19EED581CE21B0700D74F40 /* Build configuration list for PBXNativeTarget "Inventory TrackerTests" */;
+			buildPhases = (
+				F19EED3D1CE21B0700D74F40 /* Sources */,
+				F19EED3E1CE21B0700D74F40 /* Frameworks */,
+				F19EED3F1CE21B0700D74F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F19EED431CE21B0700D74F40 /* PBXTargetDependency */,
+			);
+			name = "Inventory TrackerTests";
+			productName = "Inventory TrackerTests";
+			productReference = F19EED411CE21B0700D74F40 /* Inventory TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F19EED4B1CE21B0700D74F40 /* Inventory TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19EED5B1CE21B0700D74F40 /* Build configuration list for PBXNativeTarget "Inventory TrackerUITests" */;
+			buildPhases = (
+				F19EED481CE21B0700D74F40 /* Sources */,
+				F19EED491CE21B0700D74F40 /* Frameworks */,
+				F19EED4A1CE21B0700D74F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F19EED4E1CE21B0700D74F40 /* PBXTargetDependency */,
+			);
+			name = "Inventory TrackerUITests";
+			productName = "Inventory TrackerUITests";
+			productReference = F19EED4C1CE21B0700D74F40 /* Inventory TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F19EED251CE21B0600D74F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Zain-Ul Haq";
+				TargetAttributes = {
+					F19EED2C1CE21B0600D74F40 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F19EED401CE21B0700D74F40 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F19EED2C1CE21B0600D74F40;
+					};
+					F19EED4B1CE21B0700D74F40 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F19EED2C1CE21B0600D74F40;
+					};
+				};
+			};
+			buildConfigurationList = F19EED281CE21B0600D74F40 /* Build configuration list for PBXProject "Inventory Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F19EED241CE21B0600D74F40;
+			productRefGroup = F19EED2E1CE21B0600D74F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F19EED2C1CE21B0600D74F40 /* Inventory Tracker */,
+				F19EED401CE21B0700D74F40 /* Inventory TrackerTests */,
+				F19EED4B1CE21B0700D74F40 /* Inventory TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F19EED2B1CE21B0600D74F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19EED3B1CE21B0600D74F40 /* LaunchScreen.storyboard in Resources */,
+				F19EED381CE21B0600D74F40 /* Assets.xcassets in Resources */,
+				F19EED361CE21B0600D74F40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19EED3F1CE21B0700D74F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19EED4A1CE21B0700D74F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F19EED291CE21B0600D74F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19EED331CE21B0600D74F40 /* ViewController.swift in Sources */,
+				F19EED311CE21B0600D74F40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19EED3D1CE21B0700D74F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19EED461CE21B0700D74F40 /* Inventory_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19EED481CE21B0700D74F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19EED511CE21B0700D74F40 /* Inventory_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F19EED431CE21B0700D74F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F19EED2C1CE21B0600D74F40 /* Inventory Tracker */;
+			targetProxy = F19EED421CE21B0700D74F40 /* PBXContainerItemProxy */;
+		};
+		F19EED4E1CE21B0700D74F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F19EED2C1CE21B0600D74F40 /* Inventory Tracker */;
+			targetProxy = F19EED4D1CE21B0700D74F40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F19EED341CE21B0600D74F40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19EED351CE21B0600D74F40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F19EED391CE21B0600D74F40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19EED3A1CE21B0600D74F40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F19EED531CE21B0700D74F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F19EED541CE21B0700D74F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F19EED561CE21B0700D74F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Inventory Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theScore.Inventory-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F19EED571CE21B0700D74F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Inventory Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theScore.Inventory-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F19EED591CE21B0700D74F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Inventory TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theScore.Inventory-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inventory Tracker.app/Inventory Tracker";
+			};
+			name = Debug;
+		};
+		F19EED5A1CE21B0700D74F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Inventory TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theScore.Inventory-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inventory Tracker.app/Inventory Tracker";
+			};
+			name = Release;
+		};
+		F19EED5C1CE21B0700D74F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Inventory TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theScore.Inventory-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Inventory Tracker";
+			};
+			name = Debug;
+		};
+		F19EED5D1CE21B0700D74F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Inventory TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theScore.Inventory-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Inventory Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F19EED281CE21B0600D74F40 /* Build configuration list for PBXProject "Inventory Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19EED531CE21B0700D74F40 /* Debug */,
+				F19EED541CE21B0700D74F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19EED551CE21B0700D74F40 /* Build configuration list for PBXNativeTarget "Inventory Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19EED561CE21B0700D74F40 /* Debug */,
+				F19EED571CE21B0700D74F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F19EED581CE21B0700D74F40 /* Build configuration list for PBXNativeTarget "Inventory TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19EED591CE21B0700D74F40 /* Debug */,
+				F19EED5A1CE21B0700D74F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F19EED5B1CE21B0700D74F40 /* Build configuration list for PBXNativeTarget "Inventory TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19EED5C1CE21B0700D74F40 /* Debug */,
+				F19EED5D1CE21B0700D74F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F19EED251CE21B0600D74F40 /* Project object */;
+}
